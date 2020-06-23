@@ -373,7 +373,7 @@ def update_graph_scatter(n):
             xaxis={
                 'automargin': False,
                 'range': [min(X_universal), max(X_universal)],
-                'title': 'Current Time (IST)',
+                'title': 'Current Time (GMT)',
                 'nticks': 6
             },
             yaxis={
