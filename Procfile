@@ -1,2 +1,2 @@
-web: gunicorn app:server --timeout 300
-worker: python streaming.py &
+web: gunicorn app:server --timeout 10
+web: python streaming.py
